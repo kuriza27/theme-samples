@@ -1,5 +1,5 @@
 # theme-samples
-Customized theme for wp
+Customized themes for wp
 
 - Most js and css changes under /dev using grunt to compile both.
 - Under template-parts/blocks all files created for guttenberg block using Advance custom field (ACF)
