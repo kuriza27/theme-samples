@@ -1,0 +1,84 @@
+{
+    "key": "group_60e69e5eb139b",
+    "title": "Corporate Docs Attachment Link Settings",
+    "fields": [
+        {
+            "key": "field_60e69e6e39b51",
+            "label": "PDF Link Attachment",
+            "name": "pdf_link_attachment",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        },
+        {
+            "key": "field_60e69e8039b52",
+            "label": "RTF Link Attachment",
+            "name": "rtf_link_attachment",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        },
+        {
+            "key": "field_60e69e9239b53",
+            "label": "DOC Link Attachment",
+            "name": "doc_link_attachment",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        },
+        {
+            "key": "field_60e69ea539b54",
+            "label": "Image Link Attachment",
+            "name": "image_link_attachment",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "corporate_docs"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1625726841
+}

@@ -1,0 +1,168 @@
+{
+    "key": "group_611376710ae77",
+    "title": "Page Custom Scripts",
+    "fields": [
+        {
+            "key": "field_611376973b8a6",
+            "label": "Custom CSS",
+            "name": "custom_css",
+            "type": "textarea",
+            "instructions": "Will be added just before the closing <\/head> tag",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ".demo{ color: red; }",
+            "maxlength": "",
+            "rows": 12,
+            "new_lines": ""
+        },
+        {
+            "key": "field_611377c339d33",
+            "label": "Custom Script",
+            "name": "custom_script",
+            "type": "textarea",
+            "instructions": "Will be added just before the closing <\/body> tag",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "document.getElementById(\"demo\").innerHTML = \"Hello JavaScript!\"",
+            "maxlength": "",
+            "rows": 12,
+            "new_lines": ""
+        },
+        {
+            "key": "field_618b76b07804f",
+            "label": "Head Code",
+            "name": "head_code",
+            "type": "textarea",
+            "instructions": "anything added here will be rendered before the closing head tag",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_618b7708412db",
+            "label": "Body Code",
+            "name": "body_code",
+            "type": "textarea",
+            "instructions": "Anything added here will be rendered right after the opening body tag",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_618b772780dd4",
+            "label": "Footer Code",
+            "name": "footer_code",
+            "type": "textarea",
+            "instructions": "Anything added here will be rendered before the closing body tag",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "investment"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "corporate_docs"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "tenders"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "research"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "creative_connection"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "cpt_news"
+            }
+        ]
+    ],
+    "menu_order": 100,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1636530598
+}

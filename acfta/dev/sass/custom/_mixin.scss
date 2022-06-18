@@ -1,0 +1,50 @@
+
+// Mixin to manage responsive breakpoints
+$breakpoints: (
+  "xs": (
+    max-width: 575px,
+  ),
+  "sm": (
+    max-width: 767px,
+  ),
+  "md": (
+    max-width: 991px,
+  ),
+  "lg": (
+    max-width: 1199px,
+  ),
+  "xl": (
+    max-width: 1520px,
+  ),
+  "min-xs": (
+    min-width: 576px,
+  ),
+  "min-sm": (
+    min-width: 768px,
+  ),
+  "min-md": (
+    min-width: 992px,
+  ),
+  "min-lg": (
+    min-width: 1200px,
+  ),
+  "min-xl": (
+    min-width: 1521px,
+  ),
+) !default;
+
+@mixin respond-to($breakpoint) {
+  // If the key exists in the map
+  @if map-has-key($breakpoints, $breakpoint) {
+    // Prints a media query based on the value
+    @media #{inspect(map-get($breakpoints, $breakpoint))} {
+      @content;
+    }
+  }
+
+  // If the key doesn't exist in the map
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Available breakpoints are: #{map-keys($breakpoints)}.";
+  }
+}

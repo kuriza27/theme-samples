@@ -1,0 +1,24 @@
+{
+  "name": "dev",
+  "version": "1.0.0",
+  "description": "Basic dev structure",
+  "main": "index.js",
+  "scripts": {
+    "scss_prod": "node-sass --watch sass/ -o ../ --output-style compressed",
+    "scss": "node-sass --watch sass/ -o ../",
+    "js": "uglifyjs js/custom.js  -m -o ../js/custom.min.js"
+  },
+  "devDependencies": {
+    "grunt": "^1.4.0",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^3.1.0",
+    "jit-grunt": "^0.10.0"
+  },
+  "dependencies": {
+    "node-sass": "^6.0.0",
+    "node-watch": "^0.6.3",
+    "uglify-js": "^3.9.1"
+  }
+}

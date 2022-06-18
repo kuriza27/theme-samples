@@ -1,0 +1,10 @@
+
+> node-sass@4.14.1 install C:\wamp64\www\NODA\livinwp\wp-content\themes\livin\dev\node_modules\node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.14.1/win32-x64-88_binding.node
+
+> node-sass@4.14.1 postinstall C:\wamp64\www\NODA\livinwp\wp-content\themes\livin\dev\node_modules\node-sass
+> node scripts/build.js
+
+Building: C:\Program Files\nodejs\node.exe C:\wamp64\www\NODA\livinwp\wp-content\themes\livin\dev\node_modules\node-gyp\bin\node-gyp.js rebuild --verbose --libsass_ext= --libsass_cflags= --libsass_ldflags= --libsass_library=

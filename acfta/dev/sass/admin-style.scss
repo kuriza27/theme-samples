@@ -1,0 +1,134 @@
+/* ========================
+   Theme Name: Australia Council for the Arts
+   ======================== */
+/** Table of Contents:
+
+* 1.0 - Fonts
+* 2.0 - Icon-fonts
+* 3.0 - Useful classes
+* 4.0 - General
+    * 4.1 - Forms
+    * 4.2 - Buttons
+* 5.0 - Mobile menu
+* 6.0 - Header
+* 7.0 - Footer
+* 8.0 - Pages
+**/
+
+:root{
+    --primary-color: #000;
+    --text-color: #1C1C1C;
+    --border-color: rgba(0,0,0,.45);
+    --border-color-lt: rgba(0,0,0,.14);
+}
+
+/* 1.0 - Fonts
+============================== */
+@font-face {
+    font-family: 'gothambook';
+    src: url('fonts/gotham-book-webfont.eot');
+    src: url('fonts/gotham-book-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/gotham-book-webfont.woff2') format('woff2'),
+    url('fonts/gotham-book-webfont.woff') format('woff'),
+    url('fonts/gotham-book-webfont.ttf') format('truetype'),
+    url('fonts/gotham-book-webfont.svg#gotham_bookregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gothamBold';
+    src: url('fonts/gotham-bold-webfont.eot');
+    src: url('fonts/gotham-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/gotham-bold-webfont.woff2') format('woff2'),
+    url('fonts/gotham-bold-webfont.woff') format('woff'),
+    url('fonts/gotham-bold-webfont.ttf') format('truetype'),
+    url('fonts/gotham-bold-webfont.svg#gotham_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GothamMedium';
+    src: url('fonts/gotham-medium-webfont.eot');
+    src: url('fonts/gotham-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/gotham-medium-webfont.woff2') format('woff2'),
+    url('fonts/gotham-medium-webfont.woff') format('woff'),
+    url('fonts/gotham-medium-webfont.ttf') format('truetype'),
+    url('fonts/gotham-medium-webfont.svg#gotham_mediumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RalewayRegular';
+    src: url('fonts/RalewayRegular.eot');
+    src: url('fonts/RalewayRegular.eot') format('embedded-opentype'),
+    url('fonts/RalewayRegular.woff2') format('woff2'),
+    url('fonts/RalewayRegular.woff') format('woff'),
+    url('fonts/RalewayRegular.ttf') format('truetype'),
+    url('fonts/RalewayRegular.svg#RalewayRegular') format('svg');
+}
+@font-face {
+    font-family: 'RalewayBold';
+    src: url('fonts/RalewayBold.eot');
+    src: url('fonts/RalewayBold.eot') format('embedded-opentype'),
+    url('fonts/RalewayBold.woff2') format('woff2'),
+    url('fonts/RalewayBold.woff') format('woff'),
+    url('fonts/RalewayBold.ttf') format('truetype'),
+    url('fonts/RalewayBold.svg#RalewayBold') format('svg');
+}
+
+/* 2.0 - Icon fonts
+============================== */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('icon-fonts/icomoon.eot?ak02lb');
+    src:  url('icon-fonts/icomoon.eot?ak02lb#iefix') format('embedded-opentype'),
+    url('icon-fonts/icomoon.ttf?ak02lb') format('truetype'),
+    url('icon-fonts/icomoon.woff?ak02lb') format('woff'),
+    url('icon-fonts/icomoon.svg?ak02lb#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wp-block.editor-post-title__block {
+    max-width: 100%;
+  }
+  
+  .wp-block {
+    max-width: 100%;
+  }
+  
+  .editor-post-title {
+    background: #f3f3f4;
+  }
+  
+  .block-editor-block-list__block {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+.wp-block .acf-block-preview,
+.wp-block:not(.is-selected) .acf-block-component.acf-block-body {
+	@import "style";
+}
+
+.wp-block:not(.is-selected) .acf-block-component.acf-block-body .career-list .exp-app {
+    background-color: #FFDEDE!important;
+    color: #fff!important;
+}

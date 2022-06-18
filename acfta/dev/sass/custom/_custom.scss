@@ -1,0 +1,31 @@
+/* Mixin
+--------------------------------------------- */
+@import "mixin.scss";
+
+/* Bootstrap
+--------------------------------------------- */
+@import "bootstrap.scss";
+
+/* Slick
+--------------------------------------------- */
+@import "dropkick.scss";
+
+/* Slick
+--------------------------------------------- */
+@import "slick.scss";
+
+/* Main Styling
+--------------------------------------------- */
+@import "style.scss";
+
+/* New Styling - add additional custom styling here
+--------------------------------------------- */
+@import "new.scss";
+
+/* Header Main navigation styling - override old styling
+--------------------------------------------- */
+@import "menu.scss";
+
+/* Header Main navigation styling - override old styling
+--------------------------------------------- */
+@import "sidebar-resources.scss";

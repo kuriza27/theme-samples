@@ -1,0 +1,73 @@
+.resources-sidebar-column .placement-aside {
+    width: 100%;
+
+    @include respond-to("lg") {
+        width: 400px;
+    }
+
+    @include respond-to("md") {
+        width: 100%;
+    }
+}
+
+.sidebar--resources {
+    padding: 32px 0;
+
+    &__block {
+        padding: 24px 5px 0px;
+        border-top: 1px solid rgba(0, 0, 0, 0.3);
+
+        &:last-child {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+        }
+    }
+
+    &__title {
+        margin-bottom: 25px;
+
+        span {
+            color: #000000;
+            padding-top: 14px;
+            font-size: 20px;
+            line-height: 1.21;
+            font-family: GothamMedium;
+        }
+    }
+
+    &__files {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__file {
+        flex-basis: 50%;
+        max-width: 50%;
+        padding-right: 15px;
+        margin-bottom: 27px;
+
+        a {
+            line-height: 113%;
+            font-size: 15px;
+            display: flex;
+
+            span.icon-download {
+                margin-right: 6px;
+                margin-top: -10px;
+
+                &:before {
+                    content: "";
+                    display: block;
+                    height: 25px;
+                    width: 25px;
+                    background-image: url('images/icon-download.svg');
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+            }
+
+            span.file-text {
+                flex-basis: 88%;
+            }
+        }
+    }
+}

@@ -1,0 +1,122 @@
+:root {
+  --primary-color: #000029;
+  --secondary-color: #ef5437;
+  --white: #ffffff;
+  --line-color: rgba(247, 252, 254, 0.17);
+  --border-color: rgba(151, 151, 151, 0.17);
+  --border-color-26: rgba(151, 151, 151, 0.26);
+  --shadow-17: 0 2px 7px 0 rgba(0, 0, 0, 0.17);
+
+  --tradeGothik: "Trade Gothic Next LT Pro";
+}
+
+/* 1.0 - Fonts
+============================== */
+@font-face {
+  font-family: "NeurialGroteskBold";
+  src: url("fonts/NeurialGroteskBold.eot");
+  src: url("fonts/NeurialGroteskBold.eot") format("embedded-opentype"),
+    url("fonts/NeurialGroteskBold.woff2") format("woff2"),
+    url("fonts/NeurialGroteskBold.woff") format("woff"),
+    url("fonts/NeurialGroteskBold.ttf") format("truetype"),
+    url("fonts/NeurialGroteskBold.svg#NeurialGroteskBold") format("svg");
+}
+@font-face {
+  font-family: "NeurialGroteskRegular";
+  src: url("fonts/NeurialGroteskRegular.eot");
+  src: url("fonts/NeurialGroteskRegular.eot") format("embedded-opentype"),
+    url("fonts/NeurialGroteskRegular.woff2") format("woff2"),
+    url("fonts/NeurialGroteskRegular.woff") format("woff"),
+    url("fonts/NeurialGroteskRegular.ttf") format("truetype"),
+    url("fonts/NeurialGroteskRegular.svg#NeurialGroteskRegular") format("svg");
+}
+@font-face {
+  font-family: "tradegothiccondensed";
+  src: url("fonts/tradegothiccondensed.eot");
+  src: url("fonts/tradegothiccondensed.eot") format("embedded-opentype"),
+    url("fonts/tradegothiccondensed.woff2") format("woff2"),
+    url("fonts/tradegothiccondensed.woff") format("woff"),
+    url("fonts/tradegothiccondensed.ttf") format("truetype"),
+    url("fonts/tradegothiccondensed.svg#tradegothiccondensed") format("svg");
+}
+@font-face {
+  font-family: "TradeGothicNextLTProHv";
+  src: url("fonts/TradeGothicNextLTProHv.eot");
+  src: url("fonts/TradeGothicNextLTProHv.eot") format("embedded-opentype"),
+    url("fonts/TradeGothicNextLTProHv.woff2") format("woff2"),
+    url("fonts/TradeGothicNextLTProHv.woff") format("woff"),
+    url("fonts/TradeGothicNextLTProHv.ttf") format("truetype"),
+    url("fonts/TradeGothicNextLTProHv.svg#TradeGothicNextLTProHv") format("svg");
+}
+@font-face {
+  font-family: "ApexNewHeavy";
+  src: url("fonts/ApexNewHeavy.eot");
+  src: url("fonts/ApexNewHeavy.eot") format("embedded-opentype"),
+    url("fonts/ApexNewHeavy.woff2") format("woff2"),
+    url("fonts/ApexNewHeavy.woff") format("woff"),
+    url("fonts/ApexNewHeavy.ttf") format("truetype"),
+    url("fonts/ApexNewHeavy.svg#ApexNewHeavy") format("svg");
+}
+
+@font-face {
+  font-family: "Trade Gothic Next LT Pro";
+  src: url("fonts/TradeGothicNextLTPro-BdCm.woff2") format("woff2"),
+    url("fonts/TradeGothicNextLTPro-BdCm.woff") format("woff"),
+    url("fonts/TradeGothicNextLTPro-BdCm.svg#TradeGothicNextLTPro-BdCm")
+      format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 2.0 - Icon fonts
+============================== */
+@font-face {
+  font-family: "icomoon";
+  src: url("icon-fonts/icomoon.eot?wyt7ni");
+  src: url("icon-fonts/icomoon.eot?wyt7ni#iefix") format("embedded-opentype"),
+    url("icon-fonts/icomoon.ttf?wyt7ni") format("truetype"),
+    url("icon-fonts/icomoon.woff?wyt7ni") format("woff"),
+    url("icon-fonts/icomoon.svg?wyt7ni#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.has-admin-grey-bg {
+  background-color: #bebdbb !important;
+}
+
+.wp-block.editor-post-title__block {
+  max-width: 100%;
+}
+
+.wp-block {
+  max-width: 100%;
+}
+
+.editor-post-title {
+  background: #f3f3f4;
+}
+
+.block-editor-block-list__block {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.animate-children > *{
+  transition: none !important;
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+.wp-block .acf-block-preview,
+.wp-block:not(.is-selected) .acf-block-component.acf-block-body {
+  font-family: "NeurialGroteskRegular";
+  font-size: 20px;
+  line-height: 1.5;
+  background-color: var(--white);
+  color: var(--primary-color);
+  
+  @import "style";
+}
